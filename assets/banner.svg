@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+<title id="t">FAMI · Redes que protegen</title><desc id="d">Teleasistencia comunitaria para el adulto mayor</desc>
+<rect width="1200" height="300" rx="18" fill="#f2f0e3"/>
+<clipPath id="c"><rect width="1200" height="300" rx="18"/></clipPath>
+<g clip-path="url(#c)"><circle cx="1010" cy="150" r="46" fill="none" stroke="#516472" stroke-opacity="0.55" stroke-width="3"/><circle cx="1010" cy="150" r="92" fill="none" stroke="#516472" stroke-opacity="0.4" stroke-width="3"/><circle cx="1010" cy="150" r="138" fill="none" stroke="#516472" stroke-opacity="0.28" stroke-width="3"/><circle cx="1010" cy="150" r="184" fill="none" stroke="#516472" stroke-opacity="0.18" stroke-width="3"/><circle cx="1053.2" cy="165.7" r="7" fill="#89674b"/><circle cx="939.5" cy="209.1" r="7" fill="#89674b"/><circle cx="994.0" cy="59.4" r="7" fill="#89674b"/><circle cx="1057.2" cy="279.7" r="7" fill="#89674b"/><circle cx="880.3" cy="102.8" r="7" fill="#89674b"/><circle cx="1169.3" cy="58.0" r="7" fill="#89674b"/><circle cx="947.1" cy="322.9" r="7" fill="#89674b"/>
+<circle cx="1010" cy="150" r="22" fill="#516472"/><circle cx="1010" cy="150" r="9" fill="#f2f0e3"/></g>
+<text x="64" y="86" font-family="Nunito, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="3.5" fill="#89674b">SENDA ZERO · DLAB ICUBO UDD 2026</text>
+<text x="60" y="172" font-family="Fredoka, Nunito, Segoe UI, Helvetica, Arial, sans-serif" font-size="84" font-weight="700" fill="#516472">FAMI</text>
+<text x="64" y="218" font-family="Nunito, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#516472">Redes que protegen · teleasistencia comunitaria</text>
+<rect x="64" y="244" width="64" height="4" rx="2" fill="#89674b"/>
+</svg>
