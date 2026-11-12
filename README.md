@@ -33,7 +33,7 @@ Desarrollado por **Senda Zero** en el marco del programa interdisciplinario **dL
 3. [Arquitectura Técnica y Hardware (BOM)](#-3-arquitectura-técnica-y-hardware-bom)
 4. [Flujo de Conexión y Onboarding](#-4-flujo-de-conexión-y-onboarding)
 5. [Validación en Terreno](#-5-validación-en-terreno)
-6. [Cumplimiento Legal y Regulatorio](#-6-cumplimiento-legal-y-regulatorio)
+6. [Marco Legal y Regulatorio](#-6-marco-legal-y-regulatorio)
 7. [Modelo de Negocio y Estructura Financiera](#-7-modelo-de-negocio-y-estructura-financiera)
 8. [Identidad Visual y Branding](#-8-identidad-visual-y-branding)
 9. [Estructura Recomendada del Repositorio](#-9-estructura-recomendada-del-repositorio)
@@ -125,9 +125,9 @@ El proyecto fue iterado en **4 ciclos de co-diseño** y validado cuantitativa y 
 
 ---
 
-## ⚖️ 6. Cumplimiento Legal y Regulatorio
+## ⚖️ 6. Marco Legal y Regulatorio
 
-Para su comercialización y despliegue institucional en Chile, la arquitectura cumple con tres marcos normativos clave:
+Para su comercialización y despliegue institucional en Chile, la arquitectura está diseñada para cumplir tres marcos normativos clave (requisitos identificados y considerados en el diseño):
 
 * **SUBTEL (Subsecretaría de Telecomunicaciones):** Homologación de radiofrecuencia para operar dentro de los límites de potencia permitidos en la banda libre de $915\text{ MHz}$.
 * **SEC (Superintendencia de Electricidad y Combustibles):** Certificación de seguridad eléctrica para el circuito impreso (PCBA), gestión de batería LiPo y protocolo de carga USB-C.
