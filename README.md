@@ -13,6 +13,19 @@ Desarrollado por **Senda Zero** en el marco del programa interdisciplinario **dL
 
 ---
 
+## ⚡ FAMI en 30 segundos
+
+| | |
+|---|---|
+| **El problema** | Una caída sin asistencia por más de 1 hora duplica la mortalidad de un adulto mayor, y en una emergencia masiva las redes celulares colapsan. |
+| **La solución** | Un wearable modular (pulsera, llavero o pin) con LoRaWAN, sin SIM, más una app vecinal (Vecindapp) que avisa primero a los vecinos y familiares más cercanos. |
+| **Validación** | 4 ciclos de co-diseño en Quinta Normal · 89 % de utilidad percibida. |
+| **Modelo** | Hardware ($99.990 CLP) + suscripción ($7.990 CLP/mes). |
+| **Estado** | Prototipo (MVP) con telemetría simulada (*Edge Mocking*). |
+| **Equipo** | Senda Zero · dLab iCubo, Universidad del Desarrollo. |
+
+---
+
 ## 📋 Tabla de Contenidos
 
 1. [El Problema y Contexto Territorial](#-1-el-problema-y-contexto-territorial)
