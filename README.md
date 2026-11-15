@@ -11,6 +11,11 @@
 
 Desarrollado por **Senda Zero** en el marco del programa interdisciplinario **dLab (Diseño, Ingeniería y Negocios)** de iCubo, Universidad del Desarrollo.
 
+<p align="center">
+  <img src="assets/img/formatos-pin-llavero-pulsera.jpg" alt="FAMI en sus tres formatos: pin, llavero y pulsera" width="100%">
+  <br><sub><em>FAMI en sus tres formatos: pin, llavero y pulsera (render de diseño).</em></sub>
+</p>
+
 ---
 
 ## ⚡ FAMI en 30 segundos
@@ -59,6 +64,11 @@ En Chile, el envejecimiento demográfico avanza de forma acelerada, alcanzando u
 FAMI rompe el paradigma de los dispositivos médicos invasivos que generan *"estigma de fragilidad"*, integrando hardware discreto con inteligencia comunitaria:
 
 ### 🔹 FAMI A: El Anclaje (Hardware Wearable)
+<p align="center">
+  <img src="assets/img/dispositivo-fami.jpg" alt="Render del dispositivo FAMI en color beige con el logo de la casa" width="300">
+  <br><sub><em>El dispositivo FAMI: compacto, de líneas suaves y sin pantalla (render de diseño).</em></sub>
+</p>
+
 * **Diseño Modular sin Estigma:** Dispositivo compacto y ergonómico fabricado en polímero flexible (TPU beige), adaptable como **pulsera, llavero o pin** según la preferencia estética del usuario.
 * **Cero Fricción Cognitiva:** Sin pantallas complejas ni menús que intimiden al adulto mayor.
 * **Independencia de Redes Móviles:** Opera mediante modulación de espectro libre **LoRaWAN ($915\text{ MHz}$)**, eliminando el uso de tarjetas SIM/eSIM y asegurando transmisión de largo alcance y ultra bajo consumo incluso durante cortes eléctricos o caídas de telefonía móvil.
@@ -100,6 +110,17 @@ FAMI rompe el paradigma de los dispositivos médicos invasivos que generan *"est
 | **Conectividad** | Transceptor LoRaWAN | Comunicación inalámbrica en banda libre de $915\text{ MHz}$. |
 | **Estructura** | PCB + Carcasa TPU | Placa de circuito impreso doble capa personalizada y carcasa modular ergonómica. |
 
+### 🔧 Del esquema al prototipo físico
+
+Primer prototipo de electrónica armado a mano en el laboratorio del programa, dentro de una carcasa impresa en 3D: se ven el módulo **MPU-6050** (acelerómetro/giroscopio), el módulo **GPS**, el pulsador **SOS** y el cableado hacia la placa, con alimentación por USB.
+
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="assets/img/prototipo-electronica.jpg" alt="Interior del prototipo de FAMI con MPU-6050, módulo GPS, pulsador y cableado" width="100%"><br><sub><em>Interior del prototipo: sensores, GPS, pulsador SOS y cableado.</em></sub></td>
+    <td align="center" width="50%"><img src="assets/img/prototipo-soldadura.jpg" alt="Integrante del equipo soldando componentes del prototipo en el laboratorio" width="100%"><br><sub><em>Armado y soldadura del prototipo en el laboratorio.</em></sub></td>
+  </tr>
+</table>
+
 > **Nota de Arquitectura de Software (MVP):** Para la validación ágil en terreno sin depender del despliegue masivo de pasarelas físicas iniciales, la aplicación implementa un **Contrato de Datos Estricto en JSON (*Edge Mocking*)** que simula telemetría en tiempo real, preparado para escalar de forma transparente hacia WebSockets productivos.
 
 ---
@@ -111,6 +132,16 @@ El emparejamiento entre el dispositivo físico y la red familiar/vecinal está d
 1. **Escaneo de Código QR:** El cuidador escanea el código único impreso en el reverso de FAMI para vincular y cifrar la *Identidad Biográfica* del adulto mayor.
 2. **Sincronización Bluetooth / NFC:** Aproximación inicial de corto alcance para emparejar el microcontrolador con el teléfono móvil y verificar estado de batería y sensores.
 3. **Configuración de la Red Vecinal:** Invitación directa a familiares y vecinos de confianza que conformarán el anillo de respuesta rápida en el mapa comunitario.
+
+
+### Cómo se lleva FAMI: tres formatos, tres pasos cada uno
+
+La guía visual muestra cómo se coloca el dispositivo como **pin** (se fija a la ropa con un broche), **llavero** (se inserta en su marco) o **pulsera** (se encaja en la correa):
+
+<p align="center">
+  <img src="assets/img/guia-uso-3-formatos.jpg" alt="Guía de uso de FAMI en tres formatos: pin, llavero y pulsera, cada uno en tres pasos" width="720">
+  <br><sub><em>Guía de uso (ilustración): un formato por fila, en tres pasos.</em></sub>
+</p>
 
 ---
 
@@ -183,6 +214,7 @@ El sistema de diseño transmite calidez humana, cercanía y confianza tecnológi
 
 ```text
 fami-redes-que-protegen/
+├── 📁 assets/                   # Banner, vista previa social y fotos/renders (assets/img/)
 ├── 📁 hardware/                 # Esquemas PCB, modelos 3D (.STL) de carcasa modular y BOM
 ├── 📁 firmware/                 # Código fuente C++/Arduino para ESP32-C3, MPU6050 y LoRaWAN
 ├── 📁 app-vecindapp/            # Código fuente React Native (UI 4 cuadrantes y Edge Mocking JSON)
